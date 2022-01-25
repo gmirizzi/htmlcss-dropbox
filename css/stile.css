@@ -5,7 +5,8 @@
 }
 
 html {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: .9em;
 }
 
 nav {
@@ -33,14 +34,49 @@ li a img {
 a {
     text-decoration: none;
     color: unset;
-    padding: .5em;
+    padding: .7em;
 }
 
 nav ul:last-child {
     float: right;
 }
 
-nav ul:last-child li:last-child {
-    background-color: blue;
+.btn {
+    background-color: #0061ffff;
     color: white;
+}
+
+header {
+    height: 500px;
+    background-color: #b4d0e7ff;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 3.5em;
+}
+
+header h1 {
+    font-size: 3.5em;
+    margin-bottom: .5em;
+}
+
+header .content > div {
+    display: inline-block;
+    width: 35%;
+}
+
+header .content img {
+    width: 65%;
+    float: right;
+}
+
+header .btn {
+    margin-top: 2em;
+    margin-bottom: .5em;
+}
+
+.content span {
+    font-size: .9em;
 }
