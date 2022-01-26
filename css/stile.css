@@ -85,7 +85,7 @@ header .btn {
 
 section {
     width: 60%;
-    margin: 10em auto;
+    margin: 10em auto 0;
 }
 
 section h1 {
@@ -237,6 +237,7 @@ section h1 {
 
 .teamscontainer {
     width:100%;
+    margin-top: 2.5em;
 }
 
 .teamscontainer > div {
@@ -252,7 +253,7 @@ section h1 {
     height: 360px;
     width: calc(100% - 720px);
     padding: 2.5em;
-    background-color: lightgray;
+    background-color: #f5f5f5ff;
 }
 
 .teamscontainer #content img {
@@ -268,10 +269,6 @@ section h1 {
     margin-top: 2em;
 }
 
-.square1 {
-    background-color: yellow;
-}
-
 svg {
     width: 180px;
     height: 180px;
@@ -281,9 +278,31 @@ svg {
     background-color: red;
 }
 
+.teamscontainer #banner {
+    width: 100%;
+    background-color: #b4d0e7ff;
+}
 
+#banner .content {
+    width: 60%;
+    margin: 6em auto;
+    position: relative;
+}
 
+#banner .content h1 {
+    width: 50%;
+    display: inline-block;
+    color: #61082bff;
+}
 
+#banner .content .btn {
+    position: absolute;
+    right: 0;
+    color: initial;
+    background-color: white;
+    width: 35%;
+    text-align: center;
+}
 
 
 
