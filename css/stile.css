@@ -31,7 +31,7 @@ li a img {
     vertical-align: middle;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: unset;
     padding: .7em;
@@ -44,6 +44,8 @@ nav ul:last-child {
 .btn {
     background-color: #0061ffff;
     color: white;
+    padding: .7em;
+    text-decoration: none;
 }
 
 main > header {
@@ -147,11 +149,6 @@ section h1 {
     text-align: center;
 }
 
-.plan .content > a {
-    text-decoration: underline;
-    color: blue;
-}
-
 .option {
     margin-right: .5em;
 }
@@ -211,14 +208,9 @@ section h1 {
 }
 
 .operation {
-    width: calc((100% - 4em) / 3);
+    width: calc((100% - 12em) / 3);
     float: left;
-    margin: .5em 0 3em 0;
-}
-
-.operation:nth-child(3n+3){
-    margin-left: 2em;
-    margin-right: 2em;
+    margin: .5em 2em 3em;
 }
 
 .operation img {
@@ -229,6 +221,19 @@ section h1 {
     margin: .5em 0;
 }
 
+#operazioni .container {
+    margin: 0 -2em;
+}
+
+.clearfix::after {
+    content:"";
+    display: table;
+    clear: left;
+}
+
+#teams h1 {
+    width: 55%;
+}
 
 
 
