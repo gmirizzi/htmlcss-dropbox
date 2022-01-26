@@ -250,6 +250,38 @@ section h1 {
     width: 360px;
 }
 
+.left svg:nth-child(1) {
+    background-color: #a2d39bff;
+}
+
+.left svg:nth-child(2) {
+    background-color: #61082bff;
+}
+
+.left svg:nth-child(3) {
+    background-color: #0093ceff;
+}
+
+.left svg:nth-child(4) {
+    background-color: #ff1c1cff;
+}
+
+.right svg:nth-child(1) {
+    background-color: #d5001fff;
+}
+
+.right svg:nth-child(2) {
+    background-color: #b4d0e7ff;
+}
+
+.right svg:nth-child(3) {
+    background-color: #0d2481ff;
+}
+
+.right svg:nth-child(4) {
+    background-color: #ffd830ff;
+}
+
 .teamscontainer #content {
     height: 360px;
     width: calc(100% - 720px);
