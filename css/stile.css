@@ -86,7 +86,7 @@ section {
     margin: 10em auto;
 }
 
-#plan h1 {
+section h1 {
     font-size: 2em;
     margin-bottom: 1.5em;
 }
@@ -186,6 +186,10 @@ section {
     margin-top: 20px;
 }
 
+#partner h1 {
+    font-size: initial;
+}
+
 #partner img {
     width: calc(55% - 1em);
     vertical-align: middle;
@@ -204,6 +208,25 @@ section {
 
 #partner a {
     border: 1px solid black;
+}
+
+.operation {
+    width: calc((100% - 4em) / 3);
+    float: left;
+    margin: .5em 0 3em 0;
+}
+
+.operation:nth-child(3n+3){
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.operation img {
+    width: 100%;
+}
+
+.operation h2 {
+    margin: .5em 0;
 }
 
 
