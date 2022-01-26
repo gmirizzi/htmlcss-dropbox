@@ -235,6 +235,54 @@ section h1 {
     width: 55%;
 }
 
+.teamscontainer {
+    width:100%;
+}
+
+.teamscontainer > div {
+    float: left;
+}
+
+.squarecontainer {
+    height: 360px;
+    width: 360px;
+}
+
+.teamscontainer #content {
+    height: 360px;
+    width: calc(100% - 720px);
+    padding: 2.5em;
+    background-color: lightgray;
+}
+
+.teamscontainer #content img {
+    width: 20%;
+}
+
+.teamscontainer #content hr {
+    width: 10%;
+    margin: 1.5em 0 3em;
+}
+
+.teamscontainer #content .autore {
+    margin-top: 2em;
+}
+
+.square1 {
+    background-color: yellow;
+}
+
+svg {
+    width: 180px;
+    height: 180px;
+    fill: white;
+    float: left;
+    padding: 2.5em;
+    background-color: red;
+}
+
+
+
 
 
 
