@@ -49,7 +49,6 @@ nav ul:last-child {
 main > header {
     height: 500px;
     background-color: #b4d0e7ff;
-    margin-bottom: 150px;
 }
 
 header .container {
@@ -84,10 +83,10 @@ header .btn {
 
 section {
     width: 60%;
-    margin: 0 auto;
+    margin: 10em auto;
 }
 
-section h1 {
+#plan h1 {
     font-size: 2em;
     margin-bottom: 1.5em;
 }
@@ -185,6 +184,26 @@ section h1 {
     text-align: center;
     vertical-align: top;
     margin-top: 20px;
+}
+
+#partner img {
+    width: calc(55% - 1em);
+    vertical-align: middle;
+}
+
+#partner article {
+    display: inline-block;
+    width: calc(45% - 2em);
+    vertical-align: middle;
+    margin: 1em;
+}
+
+#partner p {
+    margin: 1em 0;
+}
+
+#partner a {
+    border: 1px solid black;
 }
 
 
