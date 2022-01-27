@@ -376,8 +376,13 @@ svg {
 }
 
 .faq {
-    margin: 1.5em 0;
+    padding: 1.5em 1.5em 1.5em 0;
     font-weight: bold;
+}
+
+.faq i{
+    float: right;
+    font-size: 1.2em;
 }
 
 footer {
