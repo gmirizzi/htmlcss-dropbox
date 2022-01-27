@@ -14,7 +14,10 @@ nav {
     position: fixed;
     background-color: white;
     width: 100%;
-    line-height: 2em;
+    padding-top: 2px;
+    height: calc(2.5em - 4px);
+    font-size: 1.2rem;
+    z-index: 1;
 }
 
 nav ul, nav li, a {
@@ -26,11 +29,7 @@ ul {
 }
 
 nav img{
-    height: 1em;
-}
-
-nav ul{
-    vertical-align: middle;
+    height: calc(1em - 4px);
 }
 
 nav li {
@@ -41,6 +40,10 @@ nav a {
     text-decoration: none;
     color: unset;
     padding: .5em 0;
+}
+
+.white:hover {
+    border-bottom: 2px solid blue;
 }
 
 nav .btn{
