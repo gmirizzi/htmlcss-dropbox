@@ -119,6 +119,12 @@ section h1 {
     margin: 20px -20px;
 }
 
+#plan i {
+    width: 1em;
+    margin-right: .5em;
+    vertical-align: top;
+}
+
 .type{
     text-align: center;
     font-size: 1.2em;
@@ -140,8 +146,14 @@ section h1 {
     height: 3.5em;
 }
 
+.plan .text {
+    width: calc(100% - 1.5em);
+    display: inline-block;
+}
+
 .utent, .storage, .functions{
     margin: 1.5em 0;
+    line-height: 1em;
 }
 
 .plan hr {
