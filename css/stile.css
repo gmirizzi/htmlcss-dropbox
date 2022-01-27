@@ -79,6 +79,10 @@ header .btn {
     margin-bottom: .5em;
 }
 
+header .content {
+    padding-left: 0;
+}
+
 .content span {
     font-size: .9em;
 }
@@ -172,7 +176,7 @@ section h1 {
 }
 
 .plan li i {
-    color: blue;
+    color: #2f7effff;
 }
 
 .plan .btn, #link .btn {
