@@ -11,7 +11,10 @@ html {
 }
 
 nav {
-    margin: 1em .5em;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    line-height: 2em;
 }
 
 nav ul, nav li, a {
@@ -22,19 +25,26 @@ ul {
     list-style: none;
 }
 
-nav li {
-    margin: 0 .5em;
+nav img{
+    height: 1em;
 }
 
-li a img {
-    height: 1em;
+nav ul{
     vertical-align: middle;
+}
+
+nav li {
+    margin: 0 1em;
 }
 
 nav a {
     text-decoration: none;
     color: unset;
-    padding: .7em;
+    padding: .5em 0;
+}
+
+nav .btn{
+    padding: 0 .7em;
 }
 
 nav ul:last-child {
@@ -49,7 +59,8 @@ nav ul:last-child {
 }
 
 main > header {
-    height: 500px;
+    padding-top: 50px;
+    height: 550px;
     background-color: #b4d0e7ff;
 }
 
