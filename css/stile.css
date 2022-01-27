@@ -171,6 +171,10 @@ section h1 {
     margin: 1em 0;
 }
 
+.plan li i {
+    color: blue;
+}
+
 .plan .btn, #link .btn {
     width: 100%;
     text-align: center;
