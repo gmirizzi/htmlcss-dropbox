@@ -285,6 +285,7 @@ section h1 {
 
 .left svg:nth-child(1) {
     background-color: #a2d39bff;
+    border: 7px solid #d0e9cdff;
 }
 
 .left svg:nth-child(2) {
