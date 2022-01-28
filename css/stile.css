@@ -54,7 +54,7 @@ a {
     border-bottom: 2px solid blue;
 }
 
-.dropdown {
+nav .dropdown {
     position: relative;
 }
 
@@ -76,7 +76,7 @@ a {
     background: lightgray;
 }
 
-.dropdown:hover .hiddenmenu{
+nav .dropdown:hover .hiddenmenu{
     display: block;
 }
 
@@ -436,6 +436,15 @@ svg {
 .faq i{
     float: right;
     font-size: 1.2em;
+}
+
+#faqs .dropdown p{
+    display: none;
+    color: gray;
+}
+
+#faqs .dropdown:hover p{
+    display: initial;
 }
 
 footer {
