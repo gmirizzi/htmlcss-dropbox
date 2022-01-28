@@ -47,15 +47,45 @@ a {
 }
 
 .white {
-    padding: 1em 0;
+    padding: calc(1em - 1px) 0;
 }
 
 .white:hover {
     border-bottom: 2px solid blue;
 }
 
+.dropdown {
+    position: relative;
+}
+
+.hiddenmenu {
+    display: none;
+    position: absolute;
+    background: #f5f5f5ff;
+    z-index: 0;
+    min-width: 200px;
+}
+
+.hiddenmenu li{
+    display: block;
+    padding: .5em 1em;
+    margin: .5em 0;
+}
+
+.hiddenmenu li:hover {
+    background: lightgray;
+}
+
+.dropdown:hover .hiddenmenu{
+    display: block;
+}
+
+.hiddenmenu:hover {
+    margin-top: 2px;
+}
+
 nav .btn{
-    padding: 0 .7em;
+    padding: .5em .7em;
 }
 
 nav ul:last-child {
