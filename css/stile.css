@@ -68,11 +68,15 @@ nav .dropdown {
 
 .hiddenmenu li{
     display: block;
-    padding: .5em 1em;
     margin: .5em 0;
 }
 
-.hiddenmenu li:hover {
+.hiddenmenu a{
+    padding: .5em 1em;
+    width: 100%;
+}
+
+.hiddenmenu a:hover {
     background: lightgray;
 }
 
@@ -315,6 +319,10 @@ section h1 {
     margin: 0 -2em;
 }
 
+.operation span {
+    text-decoration: underline;
+}
+
 .clearfix::after {
     content:"";
     display: table;
@@ -428,9 +436,13 @@ svg {
     text-align: center;
 }
 
-.faq {
+#faqs .dropdown {
     padding: 1.5em 1.5em 1.5em 0;
+}
+
+.faq {
     font-weight: bold;
+    padding: 1em 0;
 }
 
 .faq i{
@@ -443,8 +455,16 @@ svg {
     color: gray;
 }
 
-#faqs .dropdown:hover p{
+.faq i:last-child{
+    display: none;
+}
+
+#faqs .dropdown:hover p, #faqs .dropdown:hover i:last-child{
     display: initial;
+}
+
+#faqs .dropdown:hover i:first-child {
+    display: none;
 }
 
 footer {
