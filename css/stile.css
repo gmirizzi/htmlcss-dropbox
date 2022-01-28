@@ -15,8 +15,7 @@ nav {
     background-color: white;
     width: 100%;
     padding-top: 2px;
-    height: calc(2.5em - 4px);
-    font-size: 1.2rem;
+    height: calc(3.5em - 4px);
     z-index: 1;
 }
 
@@ -29,7 +28,8 @@ ul {
 }
 
 nav img{
-    height: calc(1em - 4px);
+    height: calc(1.5em - 2px);
+    vertical-align: middle;
 }
 
 nav li {
@@ -39,7 +39,15 @@ nav li {
 nav a {
     text-decoration: none;
     color: unset;
-    padding: .5em 0;
+    line-height: calc(1.5em - 4px);
+}
+
+a {
+    color: #4c90ffff;
+}
+
+.white {
+    padding: 1em 0;
 }
 
 .white:hover {
@@ -339,6 +347,7 @@ section h1 {
     width: calc(100% - 720px);
     padding: 2.5em;
     background-color: #f5f5f5ff;
+    overflow: auto;
 }
 
 .teamscontainer #content img {
@@ -444,10 +453,5 @@ footer select {
     border: none;
     color: gray;
 }
-
-
-
-
-
 
 
