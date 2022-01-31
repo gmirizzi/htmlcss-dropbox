@@ -15,8 +15,9 @@ nav {
     background-color: white;
     width: 100%;
     padding-top: 2px;
-    height: calc(3.5em - 4px);
+    height: calc(3.5em - 5px);
     z-index: 1;
+    border-bottom: solid lightgray 1px;
 }
 
 nav ul, nav li, a {
@@ -28,7 +29,7 @@ ul {
 }
 
 nav img{
-    height: calc(1.5em - 2px);
+    height: calc(1.5em - 3px);
     vertical-align: middle;
 }
 
@@ -39,7 +40,7 @@ nav li {
 nav a {
     text-decoration: none;
     color: unset;
-    line-height: calc(1.5em - 4px);
+    line-height: calc(1.5em - 5px);
 }
 
 a {
